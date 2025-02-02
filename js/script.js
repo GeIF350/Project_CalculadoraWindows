@@ -122,7 +122,7 @@ class Calculator {
 
     // Process an operation
     processEqualOperator() {
-        const operation = previousOperationText.innerHTML.split(" ")[1];
+        const operation = previousOperationText.innerText.split(" ")[1];
         this.processOperation(operation);
     }
 }
